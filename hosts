@@ -28,3 +28,7 @@ web
 prod
 db
 tomcat
+
+[dc:vars]
+ansible_ssh_user=ubuntu
+ansible_ssh_pass=Bindushree123!
