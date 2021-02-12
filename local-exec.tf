@@ -1,5 +1,7 @@
 terraform {
   backend "local" {
+     access_key = "AKIA36XSLFBOGH6RMRLN"
+     secret_key = "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"
      path = "/var/tmp/terraform-local-backend/terraform.tfstate"
   }
 }
