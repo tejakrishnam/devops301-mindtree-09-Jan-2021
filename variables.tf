@@ -1,14 +1,14 @@
 
 variable "key_name" {
-  default = "terraform-key"
+  default = "aws-keypair"
 }
 
 
 variable "pvt_key" {
-  default = "/root/.ssh/terraform-key.pem"
+  default = "/root/.ssh/aws-keypair.pem"
 }
 
 
 variable "sg_id" {
-  default = "sg-02b2c644d114edbf9"
+  default = "sg-072c7d2e022621eb1"
 }
