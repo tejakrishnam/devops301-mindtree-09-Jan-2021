@@ -1,15 +1,15 @@
 terraform {
   backend "local" {
-     access_key = "AKIA36XSLFBOGH6RMRLN"
-     secret_key = "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"
+     #access_key = "AKIA36XSLFBOGH6RMRLN"
+     #secret_key = "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"
      path = "/var/tmp/terraform-local-backend/terraform.tfstate"
   }
 }
 
 
 provider "aws" {
-   access_key = "AKIA36XSLFBOGH6RMRLN"
-   secret_key = "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"
+   #access_key = "AKIA36XSLFBOGH6RMRLN"
+   #secret_key = "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"
    region = var.region
    version = ">=3.7,<=3.11"
 }
