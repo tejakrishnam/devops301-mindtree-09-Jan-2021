@@ -19,7 +19,7 @@ variable "region" {
 }
 
 
-data "aws_availability_zones" "zones_east" {}
+#data "aws_availability_zones" "zones_east" {}
 
 data "aws_ami" "myami" {
    most_recent = true
